@@ -1,11 +1,9 @@
-"""Reachy Mini sound playback example.
+"""Reachy Mini Rerun viewer example.
 
-Open a wav and push samples to the speaker. This is a toy example, in real
-conditions output from a microphone or a text-to-speech engine would be
- pushed to the speaker instead.
+Connects to a Reachy Mini, enables gravity compensation, and opens a Rerun
+viewer that shows the live 3D URDF model with joint positions and camera feed.
 
-It requires the 'rerun-loader-urdf' package to be installed. It's not on PyPI,
-so you need to install it from the GitHub repository: pip install git+https://github.com/rerun-io/rerun-loader-python-example-urdf.git
+Requires the 'rerun' extra: pip install reachy_mini[rerun]
 """
 
 import logging
